@@ -1,7 +1,7 @@
 (function flexible(window, document) {
   var docEl = document.documentElement
   var dpr = window.devicePixelRatio || 1
-
+  // 添加一行注释
   // adjust body font size
   function setBodyFontSize() {
     if (document.body) {
